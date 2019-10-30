@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 2</title>
+    <script src="exercicio-2.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+
+
+</head>
+<body>
+
+        <h1 class="fonte">Trabalho 3º Bimestre <span id="js">JAVASCRIPT</span></h1>
+        <h2>Algoritmo Exercicio 2</h2>
+    
+        <div id="ex2a"></div>
+        <div id="ex2b"></div> 
+        <div id="ex2c"></div>
+
+
+    
+    
+    </body>
+    <script> 
+            var exercicio2a = document.getElementById("ex2a");
+            exercicio2a.innerHTML = '<h3>' + 'Para percorrer ' + distancia + ' km, serão consumidos ' + litrosgastos.toFixed(2) + ' litros de combustível.' + '</h3>';
+
+            var exercicio2b = document.getElementById("ex2b");
+            exercicio2b.innerHTML =  '<h3>' + 'Você gastará ' + gastoTotal.toFixed(2) + ' R$ em combustível para esta viagem.' + '</h3>';
+
+            var exercicio2c = document.getElementById("ex2c");
+            exercicio2c.innerHTML = '<h3>' + 'Para concluir a viagem em ' + tempo + ' horas, você deverá dirigir à velocidade média de ' + velocidade.toFixed(2) + ' km/h.' + '</h3>';
+     </script>
+    
+     <style>
+         #ex2a{
+            font-family:cursive, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(32, 67, 184);
+         }
+
+         #ex2b{
+            font-family:cursive, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(32, 67, 182);
+         }
+
+         #ex2c{
+            font-family:cursive, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(32, 67, 180);
+         }
+
+     </style>
+
+
+    
+</body>
+</html>

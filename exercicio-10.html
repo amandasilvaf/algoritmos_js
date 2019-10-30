@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 10</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="exercicio-10.js"></script>
+
+</head>
+<body>
+    
+        <h1 class="fonte">Trabalho 3º Bimestre <span id="js">JAVASCRIPT</span></h1>
+        <h2>Algoritmo Exercicio 10</h2>
+        <div id="ex10a"></div>
+        <div id="ex10b"></div>
+        <div id="ex10c"></div>
+        <div id="ex10d"></div>
+    
+    <script>
+        var exercicio10a= document.getElementById("ex10a");
+        exercicio10a.innerHTML = '<h3>' + 'O total gasto com funcionários foi: R$ ' + totalSalarios + '.</h3>';
+        var exercicio10b= document.getElementById("ex10b");
+        exercicio10b.innerHTML = '<h3>' + 'A média salarial dos funcionários é R$ ' + mediaSalarial.toFixed(2) + '.</h3>';
+        var exercicio10c= document.getElementById("ex10c");
+        exercicio10c.innerHTML = '<h3>' + 'O maior salário é R$ ' + maiorSalario + ', do(a) funcionário(a) ' + nomeMaiorSalario + '.</h3>';
+        var exercicio10d= document.getElementById("ex10d");
+        exercicio10d.innerHTML = '<h3>' + 'O menor salário é R$ ' + menorSalario + ', do(a) funcionário(a) ' + nomeMenorSalario + '.</h3>';
+    </script>
+
+    <style>
+     #ex10a{
+        font-family:cursive, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(13, 95, 44);
+
+     }
+     #ex10b{
+        font-family:cursive, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(24, 167, 79);
+
+     }
+     #ex10c{
+        font-family:cursive, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(77, 170, 113);
+
+     }
+     #ex10d{
+        font-family:cursive, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(80, 173, 116);
+
+     }
+
+
+    </style>
+
+    
+</body>
+</html>
